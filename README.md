@@ -1,2 +1,2 @@
 # softscienceprojects.github.io
-github 
+github pages
