@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Julius Sans One', sans-serif;
 }
 
-p, a {
+p, a, a:hover, a:active, a:visited  {
   font-family: 'Roboto', sans-serif;
-  color: #fff;
+  color: #ffffff;
 }
