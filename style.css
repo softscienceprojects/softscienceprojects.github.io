@@ -9,19 +9,20 @@
 
 /* Add some content at the bottom of the video/page */
 .content {
+ color: white;
   position: fixed;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  width: 100%;
-  padding: 20px;
+  bottom: 50%;
+  right: 33%;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 2em;
+  width: 400px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: 'VT323', monospace;
 }
 
 p, a, a:hover, a:active, a:visited  {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'VT323', monospace;
   color: #ffffff;
 }
