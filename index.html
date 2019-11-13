@@ -1,26 +1,57 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Erin Nicole Johnson</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+  <head>
+    <title>Erin Nicole Johnson</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
 
-  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+      <nav>
+        <div class="nav-items">
+          <p>
+            <a href="https://github.com/softscienceprojects">Github</a>
+            <a href="https://medium.com/my-own-utopia">Medium</a>
+            <a href="https://www.instagram.com/softscienceprojects/">Instagram</a>
+            <a href="https://www.linkedin.com/in/erinnicolejohnson22222/"
+              >LinkedIn</a
+            >
+          </p>
+        </div>
+        </nav>
+    <div class="myVideo">
+        <video
+          autoplay
+          muted
+          loop
+          playsinline=""
+          webkit-playsinline=""
+          id="myVideo"
+        >
+          <source src="VideoBackground1.mp4" type="video/mp4" />
+        </video>
+      </div>
+      
+      <div class="container">
+      <!-- The video -->
+      
 
-</head>
-<body>
-  <div class = "container"> 
-<!-- The video -->
-    <video autoplay muted loop playsinline="" webkit-playsinline ="" id="myVideo">
-      <source src="VideoBackground1.mp4" type="video/mp4">
-    </video>
+      <div class="content">
+        <h1>Soft Science Projects</h1>
+      </div>
 
-    <div class="content">
-      <h1>Soft Science Projects</h1>
-      <p><a href="https://github.com/softscienceprojects">Github</a></p>
-      <p><a href="https://medium.com/my-own-utopia">Medium</a></p>
-      <p><a href="https://www.instagram.com/softscienceprojects/">Instagram</a></p>
-      <p><a href="https://www.linkedin.com/in/erinnicolejohnson22222/">LinkedIn</a></p>
+      
+
+      <div class="projects">
+        <h2><a href="https://curatorial-app.herokuapp.com/">Curatorial</a></h2>
+        <p><em>Demo is a scaled-down version with only 50 artworks</em></p>
+        <p>An artwork-searching app with functionality to create exhibitions, save artworks and follow other users</p>
+        <p>Features a Rails API backend with custom routes. Postgres database seeded by scraping Harvard Art Museum API then images analysed by Google Vision API. Local database scraped over 2000 artworks.</p>
+        <p>Front-end built with React, including nested routes, search functionality and front-end validation. Custom CSS for styling.</p>
+      </div>
     </div>
-</div>
-</body>
+  </body>
 </html>
