@@ -4,18 +4,18 @@ body {
 }
 
 #myVideo {
-  width: 100vw; 
+  width: 100vw;
   height: auto;
   /* display: none; */
 }
 
 #container {
-display: flex;
-width: 100vw;
+  display: flex;
+  width: 100vw;
 }
 
 .content {
-  width: 20%;
+  width: 60%;
   margin: auto;
 }
 
@@ -24,8 +24,14 @@ width: 100vw;
   margin: auto;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-  font-family: 'IBM Plex Mono', monospace;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "IBM Plex Mono", monospace;
   color: white;
 }
 
