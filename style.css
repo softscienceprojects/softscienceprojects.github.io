@@ -1,43 +1,43 @@
-/* Style the video: 100% width and height to cover the entire window */
-
 body {
   background: #000;
-}
-
-#container {
-position: absolute;
+  margin: 0;
 }
 
 #myVideo {
-  position: fixed;
-  padding-left: 10%;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  padding-right: 10%;
-  width: 80%; 
-  min-height: 80%; */
+  width: 100vw; 
+  height: auto;
+  /* display: none; */
 }
 
-/* Add some content at the bottom of the video/page */
+#container {
+display: flex;
+width: 100vw;
+}
+
 .content {
-  margin: 0;
-  color: white;
-  position: relative;
-  bottom: 0;
-  /*background: #000; */
   width: 20%;
-  height: 100%;
+  margin: auto;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'IBM Plex Mono', monospace;
+.projects {
+  width: 90vw;
+  margin: auto;
 }
 
-p {
+h1, h2, h3, h4, h5, h6, p {
   font-family: 'IBM Plex Mono', monospace;
+  color: white;
 }
 
 a {
   color: #fff;
   text-decoration: underline;
+}
+
+nav {
+  display: flex;
+}
+
+.nav-items {
+  margin: auto;
 }
