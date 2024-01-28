@@ -1,5 +1,5 @@
 # softscienceprojects.github.io
-My personal portfolio site  
+My personal portfolio site.  
   
 My github pages account holding links to places where I can be found online.  
   
